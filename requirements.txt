@@ -1,0 +1,26 @@
+#########################################################################
+# ARCHIVO DE TEXTO PARA EL NOTEBOOK 5: Environments y Web Scraping.ipynb#
+#########################################################################
+
+# Puente para que VS Code pueda correr el entorno en el Notebook
+ipykernel
+
+# Librería principal
+selenium
+
+# Para gestionar webdrivers automáticamente
+# Ahorra la tarea de descargar manualmente ChromeDriver/GeckoDriver
+webdriver-manager
+
+# (Opcional) Si planeas analizar HTML después de obtenerlo
+# Son útiles si deseas analizar (parsear) el código fuente HTML con mayor facilidad.
+beautifulsoup4
+lxml
+
+# (Opcional) Para manejar el almacenamiento de datos
+# Sin embargo, resulta muy práctico si vas a almacenar los datos extraídos (scraped) en tablas.
+pandas
+
+# (Opcional) Para manejar variables de entorno de forma segura
+# Ayuda a mantener las credenciales/claves de API seguras en un archivo .env.
+python-dotenv
